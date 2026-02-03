@@ -203,21 +203,7 @@ const highRiskCustomer = {
 ## 📸 Screenshots
 
 ### Main Dashboard
-![Dashboard](./screenshots/dashboard.png)
-*Modern, intuitive interface with smart form design*
-
-### Prediction Results - Low Risk
-![Low Risk Result](./screenshots/low-risk-result.png)
-*Clean results display with actionable recommendations*
-
-### Prediction Results - High Risk
-![High Risk Result](./screenshots/high-risk-result.png)
-*Clear risk indicators with retention strategies*
-
-### Model Training Results
-![Training Results](./screenshots/training-results.png)
-*Comprehensive model evaluation and comparison*
-
+![O/P](Screenshot 2026-02-03 231950.png)
 ## ⚠️ **Repository Notes**
 
 **Files Not Included in Repository:**
