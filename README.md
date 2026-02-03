@@ -202,8 +202,12 @@ const highRiskCustomer = {
 
 ## 📸 Screenshots
 
-### Main Dashboard
-![O/P]("./Screenshot 2026-02-03 231950.png")
+### Inputs
+![Main Dashboard](Screenshot%202026-02-03%20231950.png)
+
+### Output
+![Output 1](Screenshot%202026-02-03%20231958.png)
+
 ## ⚠️ **Repository Notes**
 
 **Files Not Included in Repository:**
