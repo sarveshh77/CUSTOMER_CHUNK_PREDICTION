@@ -49,13 +49,9 @@ A comprehensive machine learning solution for predicting customer churn in telec
    npm install
    ```
 
-4. **Download Dataset and Train the Model**
+4. **Get Dataset and Train the Model**
    
    ⚠️ **Note**: The dataset and trained model files are not included in this repository due to size constraints.
-   
-   **Download the dataset:**
-   - Download the Telco Customer Churn dataset from [Kaggle](https://www.kaggle.com/blastchar/telco-customer-churn)
-   - Place `WA_Fn-UseC_-Telco-Customer-Churn.csv` in `churn-prediction-backend/` and rename to `dataset.csv`
    
    **Train the model:**
    ```bash
@@ -225,7 +221,7 @@ const highRiskCustomer = {
 ## ⚠️ **Repository Notes**
 
 **Files Not Included in Repository:**
-- 📊 `dataset.csv` - Download from [Kaggle Telco Customer Churn](https://www.kaggle.com/blastchar/telco-customer-churn)
+- 📊 `dataset.csv`
 - 🤖 `model/` directory - Generated after running `python train_model.py`
 - 📁 `venv/` - Create virtual environment locally
 - 📁 `node_modules/` - Install with `npm install`
@@ -285,17 +281,6 @@ const highRiskCustomer = {
 - **💡 Helpful Tips**: Built-in guidance and explanations
 - **🔔 Actionable Results**: Specific recommendations based on predictions
 
-## 🔧 Configuration
-
-### Environment Variables
-Create a `.env` file in the backend directory:
-```env
-FLASK_ENV=development
-FLASK_DEBUG=True
-MODEL_PATH=model/churn_model.pkl
-ENCODERS_PATH=model/encoders.pkl
-```
-
 ### CORS Settings
 The Flask app is configured to accept requests from:
 - http://localhost:3000
@@ -323,24 +308,6 @@ curl -X POST http://localhost:5000/predict \
 cd churn-prediction-frontend
 npm test
 ```
-
-## 🚀 Deployment
-
-### Backend Deployment (Heroku)
-```bash
-pip install gunicorn
-echo "web: gunicorn app:app" > Procfile
-git add . && git commit -m "Deploy to Heroku"
-heroku create your-app-name
-git push heroku main
-```
-
-### Frontend Deployment (Netlify/Vercel)
-```bash
-npm run build
-# Upload dist/build folder to your hosting service
-```
-
 ## 📈 Performance Optimization
 
 - **Model Caching**: Pre-loaded encoders and model for faster predictions
@@ -370,12 +337,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👥 Authors
 
 - **Sarvesh** - *Initial work* - [sarveshh77](https://github.com/sarveshh77)
-
-## 🙏 Acknowledgments
-
-- Dataset provided by [Kaggle Telco Customer Churn](https://www.kaggle.com/blastchar/telco-customer-churn)
-- UI inspiration from modern design trends
-- Machine learning techniques from scikit-learn documentation
 
 ## 📞 Support
 
